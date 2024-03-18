@@ -11,7 +11,7 @@ const links = [
 const Footer = () => {
   return (
   <>
-    <div className="hidden lg:flex flex-col max-w-[300px] mx-auto px-4 sm:px-6 lg:px-8 top-20 right-[32px] w-[19%] fixed border border-gray-900">
+    <div className="hidden lg:flex flex-col max-w-[300px] mx-auto px-4 sm:px-6 lg:px-8 top-20 right-[66px] w-[19%] fixed border border-gray-900">
       <div className='text-center text-sm text-gray-500 py-2'>
         <div className='flex flex-wrap justify-between'>
         <nav className="w-full">

@@ -18,7 +18,7 @@ const links = [
 const Post = (props) => {
   return (
     <>
-      <div className="relative block top-20 max-w-[600px] mx-auto mb-4 px-4 sm:px-6 lg:px-8a">
+      <div className="relative overflow-hidden top-20 max-w-[700px] md:left-[22%] mb-4 px-4 sm:px-6 lg:px-8a">
         <div className="border border-gray-900 flex flex-col rounded-md p-4">
           <div className="flex justify-between items-center mb-2">
             <div className="flex gap-2 cursor-pointer">

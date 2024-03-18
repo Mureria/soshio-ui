@@ -1,11 +1,9 @@
 import React from "react";
-import Sidebar from "./Sidebar";
 import Post from "./Post";
 
 const Home = () => {
   return (
     <div className="">
-      <Sidebar />
       <Post
         username="Mtu Tano"
         time="2h"

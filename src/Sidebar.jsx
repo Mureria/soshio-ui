@@ -6,18 +6,18 @@ import { RxAvatar } from "react-icons/rx";
 
 
 const navlinks = [
-  { text: "Home", icon:<RiHome2Line size={22}/>, href: "#" },
-  { text: "Explore", icon:<IoIosSearch  size={24}/>, href: "#exploret" },
-  { text: "Notifications", icon:<IoIosNotificationsOutline size={24} />, href: "#notifications" },
-  { text: "Messages", icon:<CiMail  size={22}/>, href: "#messages" },
-  { text: "Profile", icon:<RxAvatar  size={22}/>, href: "#profile" },
-  { text: "Settings", icon:<CiSettings size={24} />, href: "#settings" },
+  { text: "Home", icon:<RiHome2Line size={22}/>, href: "/" },
+  { text: "Explore", icon:<IoIosSearch  size={24}/>, href: "explore" },
+  { text: "Notifications", icon:<IoIosNotificationsOutline size={24} />, href: "notifications" },
+  { text: "Messages", icon:<CiMail  size={22}/>, href: "messages" },
+  { text: "Profile", icon:<RxAvatar  size={22}/>, href: "profile" },
+  { text: "Settings", icon:<CiSettings size={24} />, href: "settings" },
 ];
 
 const Sidebar = () => {
   return (
     <>
-      <div className="hidden lg:flex max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 top-20 fixed lg:w-[25.5%]">
+      <div className="hidden lg:flex max-w-xl px-4 sm:px-6 lg:px-8 top-20 fixed left-[36px]">
         <div className="h-screen border border-gray-900 w-full">
           <div className="">
             <div className="flex">
