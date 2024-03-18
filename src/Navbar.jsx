@@ -10,7 +10,7 @@ const Navbar = () => {
           <div className="flex items-center gap-3">
             <BsAlexa />
             <div className="flex-shrink-0 flex items-center">
-              <span className="text-white">Chatika</span>
+              <span className="text-white">Chatikaa</span>
             </div>
             <div className='flex border rounded-full px-3 items-center w-[150px] py-0.5'>
                 <input type="text" placeholder='Search...' className='bg-transparent rounded-full w-full text-sm outline-none' />
